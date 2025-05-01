@@ -1,26 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS-specifikke filer
 # Windows
 Thumbs.db
-ehthumbs.db
 Desktop.ini
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Python (hvis du bruger det)
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg
-*.egg-info/
-dist/
-build/
-
-# VSCode / IDE-filer
-.vscode/
-.idea/
 
 # Miljøfiler
 .env
